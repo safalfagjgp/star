@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #747d8c;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #606670;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-top: 0;
+  }
+  
+  .music-player {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .music-player img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .music-player audio {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #747d8c;
+    padding: 20px;
+    color: #fff;
+  }
+  
